@@ -68,6 +68,12 @@ button {
     margin: 0.3em auto;
     border-radius: 1em;
     border-style: solid;
+    transition: all 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.02;
 }
 
 .encriptar {
@@ -166,6 +172,8 @@ ol li {
 
     .contenido {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     section {
         display: inline-block;
